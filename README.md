@@ -1,0 +1,2 @@
+# BetterSegmentedControl-Sample
+ライブラリBetterSegmentedControlのサンプル
