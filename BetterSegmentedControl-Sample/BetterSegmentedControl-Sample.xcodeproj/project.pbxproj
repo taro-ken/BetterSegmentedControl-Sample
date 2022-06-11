@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4083B0328545B0200853E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4083B0228545B0200853E19 /* AppDelegate.swift */; };
+		B4083B0528545B0200853E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4083B0428545B0200853E19 /* SceneDelegate.swift */; };
+		B4083B0728545B0200853E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4083B0628545B0200853E19 /* ViewController.swift */; };
+		B4083B0A28545B0200853E19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4083B0828545B0200853E19 /* Main.storyboard */; };
+		B4083B0C28545B0400853E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4083B0B28545B0400853E19 /* Assets.xcassets */; };
+		B4083B0F28545B0400853E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4083B0D28545B0400853E19 /* LaunchScreen.storyboard */; };
+		B4083B1A28545B0400853E19 /* BetterSegmentedControl_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4083B1928545B0400853E19 /* BetterSegmentedControl_SampleTests.swift */; };
+		B4083B2428545B0400853E19 /* BetterSegmentedControl_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4083B2328545B0400853E19 /* BetterSegmentedControl_SampleUITests.swift */; };
+		B4083B2628545B0400853E19 /* BetterSegmentedControl_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4083B2528545B0400853E19 /* BetterSegmentedControl_SampleUITestsLaunchTests.swift */; };
+		B4083B3428545B4300853E19 /* BetterSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = B4083B3328545B4300853E19 /* BetterSegmentedControl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4083B1628545B0400853E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4083AF728545B0200853E19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4083AFE28545B0200853E19;
+			remoteInfo = "BetterSegmentedControl-Sample";
+		};
+		B4083B2028545B0400853E19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4083AF728545B0200853E19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4083AFE28545B0200853E19;
+			remoteInfo = "BetterSegmentedControl-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4083AFF28545B0200853E19 /* BetterSegmentedControl-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BetterSegmentedControl-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4083B0228545B0200853E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4083B0428545B0200853E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4083B0628545B0200853E19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4083B0928545B0200853E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4083B0B28545B0400853E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4083B0E28545B0400853E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4083B1028545B0400853E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4083B1528545B0400853E19 /* BetterSegmentedControl-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BetterSegmentedControl-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4083B1928545B0400853E19 /* BetterSegmentedControl_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSegmentedControl_SampleTests.swift; sourceTree = "<group>"; };
+		B4083B1F28545B0400853E19 /* BetterSegmentedControl-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BetterSegmentedControl-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4083B2328545B0400853E19 /* BetterSegmentedControl_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSegmentedControl_SampleUITests.swift; sourceTree = "<group>"; };
+		B4083B2528545B0400853E19 /* BetterSegmentedControl_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSegmentedControl_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4083AFC28545B0200853E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4083B3428545B4300853E19 /* BetterSegmentedControl in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4083B1228545B0400853E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4083B1C28545B0400853E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4083AF628545B0200853E19 = {
+			isa = PBXGroup;
+			children = (
+				B4083B0128545B0200853E19 /* BetterSegmentedControl-Sample */,
+				B4083B1828545B0400853E19 /* BetterSegmentedControl-SampleTests */,
+				B4083B2228545B0400853E19 /* BetterSegmentedControl-SampleUITests */,
+				B4083B0028545B0200853E19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4083B0028545B0200853E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4083AFF28545B0200853E19 /* BetterSegmentedControl-Sample.app */,
+				B4083B1528545B0400853E19 /* BetterSegmentedControl-SampleTests.xctest */,
+				B4083B1F28545B0400853E19 /* BetterSegmentedControl-SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4083B0128545B0200853E19 /* BetterSegmentedControl-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B4083B0228545B0200853E19 /* AppDelegate.swift */,
+				B4083B0428545B0200853E19 /* SceneDelegate.swift */,
+				B4083B0628545B0200853E19 /* ViewController.swift */,
+				B4083B0828545B0200853E19 /* Main.storyboard */,
+				B4083B0B28545B0400853E19 /* Assets.xcassets */,
+				B4083B0D28545B0400853E19 /* LaunchScreen.storyboard */,
+				B4083B1028545B0400853E19 /* Info.plist */,
+			);
+			path = "BetterSegmentedControl-Sample";
+			sourceTree = "<group>";
+		};
+		B4083B1828545B0400853E19 /* BetterSegmentedControl-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4083B1928545B0400853E19 /* BetterSegmentedControl_SampleTests.swift */,
+			);
+			path = "BetterSegmentedControl-SampleTests";
+			sourceTree = "<group>";
+		};
+		B4083B2228545B0400853E19 /* BetterSegmentedControl-SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4083B2328545B0400853E19 /* BetterSegmentedControl_SampleUITests.swift */,
+				B4083B2528545B0400853E19 /* BetterSegmentedControl_SampleUITestsLaunchTests.swift */,
+			);
+			path = "BetterSegmentedControl-SampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4083AFE28545B0200853E19 /* BetterSegmentedControl-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4083B2928545B0400853E19 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl-Sample" */;
+			buildPhases = (
+				B4083AFB28545B0200853E19 /* Sources */,
+				B4083AFC28545B0200853E19 /* Frameworks */,
+				B4083AFD28545B0200853E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterSegmentedControl-Sample";
+			packageProductDependencies = (
+				B4083B3328545B4300853E19 /* BetterSegmentedControl */,
+			);
+			productName = "BetterSegmentedControl-Sample";
+			productReference = B4083AFF28545B0200853E19 /* BetterSegmentedControl-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4083B1428545B0400853E19 /* BetterSegmentedControl-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4083B2C28545B0400853E19 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl-SampleTests" */;
+			buildPhases = (
+				B4083B1128545B0400853E19 /* Sources */,
+				B4083B1228545B0400853E19 /* Frameworks */,
+				B4083B1328545B0400853E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4083B1728545B0400853E19 /* PBXTargetDependency */,
+			);
+			name = "BetterSegmentedControl-SampleTests";
+			productName = "BetterSegmentedControl-SampleTests";
+			productReference = B4083B1528545B0400853E19 /* BetterSegmentedControl-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4083B1E28545B0400853E19 /* BetterSegmentedControl-SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4083B2F28545B0400853E19 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl-SampleUITests" */;
+			buildPhases = (
+				B4083B1B28545B0400853E19 /* Sources */,
+				B4083B1C28545B0400853E19 /* Frameworks */,
+				B4083B1D28545B0400853E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4083B2128545B0400853E19 /* PBXTargetDependency */,
+			);
+			name = "BetterSegmentedControl-SampleUITests";
+			productName = "BetterSegmentedControl-SampleUITests";
+			productReference = B4083B1F28545B0400853E19 /* BetterSegmentedControl-SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4083AF728545B0200853E19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B4083AFE28545B0200853E19 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B4083B1428545B0400853E19 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B4083AFE28545B0200853E19;
+					};
+					B4083B1E28545B0400853E19 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B4083AFE28545B0200853E19;
+					};
+				};
+			};
+			buildConfigurationList = B4083AFA28545B0200853E19 /* Build configuration list for PBXProject "BetterSegmentedControl-Sample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4083AF628545B0200853E19;
+			packageReferences = (
+				B4083B3228545B4300853E19 /* XCRemoteSwiftPackageReference "BetterSegmentedControl" */,
+			);
+			productRefGroup = B4083B0028545B0200853E19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4083AFE28545B0200853E19 /* BetterSegmentedControl-Sample */,
+				B4083B1428545B0400853E19 /* BetterSegmentedControl-SampleTests */,
+				B4083B1E28545B0400853E19 /* BetterSegmentedControl-SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4083AFD28545B0200853E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4083B0F28545B0400853E19 /* LaunchScreen.storyboard in Resources */,
+				B4083B0C28545B0400853E19 /* Assets.xcassets in Resources */,
+				B4083B0A28545B0200853E19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4083B1328545B0400853E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4083B1D28545B0400853E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4083AFB28545B0200853E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4083B0728545B0200853E19 /* ViewController.swift in Sources */,
+				B4083B0328545B0200853E19 /* AppDelegate.swift in Sources */,
+				B4083B0528545B0200853E19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4083B1128545B0400853E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4083B1A28545B0400853E19 /* BetterSegmentedControl_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4083B1B28545B0400853E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4083B2428545B0400853E19 /* BetterSegmentedControl_SampleUITests.swift in Sources */,
+				B4083B2628545B0400853E19 /* BetterSegmentedControl_SampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4083B1728545B0400853E19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4083AFE28545B0200853E19 /* BetterSegmentedControl-Sample */;
+			targetProxy = B4083B1628545B0400853E19 /* PBXContainerItemProxy */;
+		};
+		B4083B2128545B0400853E19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4083AFE28545B0200853E19 /* BetterSegmentedControl-Sample */;
+			targetProxy = B4083B2028545B0400853E19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4083B0828545B0200853E19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4083B0928545B0200853E19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4083B0D28545B0400853E19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4083B0E28545B0400853E19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4083B2728545B0400853E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4083B2828545B0400853E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4083B2A28545B0400853E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCR4QT36HT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BetterSegmentedControl-Sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.BetterSegmentedControl-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4083B2B28545B0400853E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCR4QT36HT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BetterSegmentedControl-Sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.BetterSegmentedControl-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4083B2D28545B0400853E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCR4QT36HT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.BetterSegmentedControl-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSegmentedControl-Sample.app/BetterSegmentedControl-Sample";
+			};
+			name = Debug;
+		};
+		B4083B2E28545B0400853E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCR4QT36HT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.BetterSegmentedControl-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSegmentedControl-Sample.app/BetterSegmentedControl-Sample";
+			};
+			name = Release;
+		};
+		B4083B3028545B0400853E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCR4QT36HT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.BetterSegmentedControl-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BetterSegmentedControl-Sample";
+			};
+			name = Debug;
+		};
+		B4083B3128545B0400853E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCR4QT36HT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-tk.BetterSegmentedControl-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BetterSegmentedControl-Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4083AFA28545B0200853E19 /* Build configuration list for PBXProject "BetterSegmentedControl-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4083B2728545B0400853E19 /* Debug */,
+				B4083B2828545B0400853E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4083B2928545B0400853E19 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4083B2A28545B0400853E19 /* Debug */,
+				B4083B2B28545B0400853E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4083B2C28545B0400853E19 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4083B2D28545B0400853E19 /* Debug */,
+				B4083B2E28545B0400853E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4083B2F28545B0400853E19 /* Build configuration list for PBXNativeTarget "BetterSegmentedControl-SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4083B3028545B0400853E19 /* Debug */,
+				B4083B3128545B0400853E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4083B3228545B4300853E19 /* XCRemoteSwiftPackageReference "BetterSegmentedControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gmarm/BetterSegmentedControl";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4083B3328545B4300853E19 /* BetterSegmentedControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4083B3228545B4300853E19 /* XCRemoteSwiftPackageReference "BetterSegmentedControl" */;
+			productName = BetterSegmentedControl;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B4083AF728545B0200853E19 /* Project object */;
+}

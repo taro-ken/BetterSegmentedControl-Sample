@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BetterSegmentedControl",
+        "repositoryURL": "https://github.com/gmarm/BetterSegmentedControl",
+        "state": {
+          "branch": "master",
+          "revision": "32348f8fc700c78a6aefa731214cb4497757a48b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
